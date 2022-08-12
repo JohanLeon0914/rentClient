@@ -1,0 +1,10 @@
+.botonLogin {
+    background-color: transparent;
+    border: none;
+    color: #64b2ff;
+    font-family: 'Titillium web', sams-serif;
+}
+
+.botonLogin:hover{
+    cursor: pointer;
+}

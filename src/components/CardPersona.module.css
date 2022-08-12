@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,200&display=swap');
+
+.movieCard {
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .movieCard:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .movieImage{
+    border-radius: 10px;
+    background-color: azure;
+  }
+
+  .parrafoCap {
+    font-family: Literata;
+    color: #eee;
+  }
+
+  a:link, a:visited, a:active {
+    text-decoration:none;
+}
+  
+  @media (max-width: 560px) {
+    .moviesImage {
+        width: 90%;
+        height: auto;
+    }
+    p {
+      margin-top: 25px;
+    }
+  }

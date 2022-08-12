@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,200&display=swap');
+
+.detailsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: Literata;
+    color: #eee;
+}
+
+
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+
+.movieImage {
+    border-radius: 15px;
+}
+
+.movieDetails {
+    font-size: 1.5rem;
+}
+
+.firstItem {
+    margin-top: 0;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #368239; /* Green */
+    color: white;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 560px) {
+    .contenedorDoc {
+        width: 120%;
+    }
+
+    .detailsContainer {
+        margin-left: 50%;
+    }
+
+}
